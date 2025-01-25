@@ -1,0 +1,37 @@
+Adding a new node to the end of the list : O(1)
+Removing a item from the end of list : O(n)
+
+Adding new node to the front of the list: O(1)
+Removing a new node from the front of the list : O(1)
+
+Adding a new node in the middle of the list: O(n)
+Removing a new node from the middle of the list : O(n)
+
+Linked list doesnot have index but we can remove or add a value in the given index thought head and tail pointer
+
+
+Node is value and the pointer. Node is very similar to unordered map:
+{
+    "value" : 4,
+    "next" : nullptr
+}
+
+This is what linked list looks like 
+
+head:{
+    "value" : 11,
+    "next" : {
+            "value" : 34,
+            "next" : {
+                    "value" :3,
+                    "next": {
+                            "next" : {
+                                    "value" : 4,
+tail:------------------------------>"next" : nullptr    
+                                    }
+                            }
+                    } 
+            }
+    }
+
+This is showns as 11, 34, 3, 4 for easy visualization.   
